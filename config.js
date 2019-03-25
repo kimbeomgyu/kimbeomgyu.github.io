@@ -2,7 +2,7 @@
 
 module.exports = {
   url: 'https://lumen.netlify.com',
-  title: 'Blog by John Doe',
+  title: 'Blog by kimbeomgyu',
   subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
@@ -16,23 +16,19 @@ module.exports = {
     {
       label: 'About me',
       path: '/pages/about'
-    },
-    {
-      label: 'Contact me',
-      path: '/pages/contacts'
     }
   ],
   author: {
-    name: 'John Doe',
+    name: 'kim beom gyu',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: '개발자로 시작하는중....',
     contacts: {
-      email: '#',
-      telegram: '#',
+      // email: 'qjarb1994@gmail.com',
+      // telegram: '#',
       twitter: '#',
-      github: '#',
-      rss: '#',
-      vkontakte: '#'
+      github: 'kimbeomgyu'
+      // rss: '#',
+      // vkontakte: '#'
     }
   }
 };

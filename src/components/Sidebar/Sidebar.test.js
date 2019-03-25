@@ -13,12 +13,12 @@ describe('Sidebar', () => {
               photo: '/photo.jpg',
               bio: 'bio',
               contacts: {
-                email: '#',
+                // email: '#',
                 twitter: '#',
-                vkontakte: '#',
-                github: '#',
-                rss: '#',
-                telegram: '#'
+                // vkontakte: '#',
+                github: '#'
+                // rss: '#',
+                // telegram: '#'
               }
             },
             copyright: 'copyright',
