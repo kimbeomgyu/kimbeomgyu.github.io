@@ -16,6 +16,14 @@ module.exports = {
     {
       label: 'About me',
       path: '/pages/about'
+    },
+    {
+      label: 'portpolio',
+      path: '/pages/portpolio'
+    },
+    {
+      label: 'TIL',
+      path: '/category/til/'
     }
   ],
   author: {

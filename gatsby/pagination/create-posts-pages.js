@@ -9,8 +9,12 @@ module.exports = async (graphql, actions) => {
   const result = await graphql(`
     {
       allMarkdownRemark(
-        filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true } } }
-      ) { totalCount }
+        filter: {
+          frontmatter: { template: { eq: "post" }, draft: { ne: true }, category: { ne: "TIL" } }
+        }
+      ) {
+        totalCount
+      }
     }
   `);
 
