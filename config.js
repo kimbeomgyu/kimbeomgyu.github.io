@@ -5,7 +5,7 @@ module.exports = {
   title: 'Blog by kimbeomgyu',
   subtitle: '반갑습니다. 신입 개발자 김범규입니다.',
   copyright: '© All rights reserved.',
-  disqusShortname: '',
+  disqusShortname: 'kimbeomgyu',
   postsPerPage: 4,
   menu: [
     {
