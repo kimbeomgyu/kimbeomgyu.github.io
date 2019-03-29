@@ -8,8 +8,8 @@ describe('Contacts', () => {
       // email: '#',
       twitter: '#',
       // vkontakte: '#',
-      github: '#'
-      // rss: '#',
+      github: '#',
+      rss: '#'
       // telegram: '#'
     }
   };

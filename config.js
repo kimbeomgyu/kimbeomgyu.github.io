@@ -33,8 +33,8 @@ module.exports = {
       // email: 'qjarb1994@gmail.com',
       // telegram: '#',
       twitter: '#',
-      github: 'kimbeomgyu'
-      // rss: '#',
+      github: 'kimbeomgyu',
+      rss: 'https://kimbeomgyu.github.io/rss.xml'
       // vkontakte: '#'
     }
   }
