@@ -4,37 +4,36 @@ import Layout from '../components/Layout';
 import Sidebar from '../components/Sidebar';
 import Feed from '../components/Feed';
 import Page from '../components/Page';
-import Pagination from '../components/Pagination';
+// import Pagination from '../components/Pagination';
 
 const CategoryTemplate = ({ data, pageContext }) => {
-  const {
-    title: siteTitle,
-    subtitle: siteSubtitle
-  } = data.site.siteMetadata;
+  const { title: siteTitle, subtitle: siteSubtitle } = data.site.siteMetadata;
 
   const {
     category,
-    currentPage,
-    prevPagePath,
-    nextPagePath,
-    hasPrevPage,
-    hasNextPage,
+    currentPage
+    // prevPagePath,
+    // nextPagePath,
+    // hasPrevPage,
+    // hasNextPage
   } = pageContext;
 
   const { edges } = data.allMarkdownRemark;
-  const pageTitle = currentPage > 0 ? `${category} - Page ${currentPage} - ${siteTitle}` : `${category} - ${siteTitle}`;
+  const pageTitle = currentPage > 0
+    ? `${category} - Page ${currentPage} - ${siteTitle}`
+    : `${category} - ${siteTitle}`;
 
   return (
     <Layout title={pageTitle} description={siteSubtitle}>
       <Sidebar />
       <Page title={category}>
         <Feed edges={edges} />
-        <Pagination
+        {/* <Pagination
           prevPagePath={prevPagePath}
           nextPagePath={nextPagePath}
           hasPrevPage={hasPrevPage}
           hasNextPage={hasNextPage}
-        />
+        /> */}
       </Page>
     </Layout>
   );
@@ -49,11 +48,13 @@ export const query = graphql`
       }
     }
     allMarkdownRemark(
-        limit: $postsLimit,
-        skip: $postsOffset,
-        filter: { frontmatter: { category: { eq: $category }, template: { eq: "post" }, draft: { ne: true } } },
-        sort: { order: DESC, fields: [frontmatter___date] }
-      ){
+      limit: $postsLimit
+      skip: $postsOffset
+      filter: {
+        frontmatter: { category: { eq: $category }, template: { eq: "post" }, draft: { ne: true } }
+      }
+      sort: { order: DESC, fields: [frontmatter___date] }
+    ) {
       edges {
         node {
           fields {
