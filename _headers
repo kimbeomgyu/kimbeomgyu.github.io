@@ -26,31 +26,34 @@
 /pages/portpolio/
   Link: </webpack-runtime-02ac904c0cc73a3f747c.js>; rel=preload; as=script
   Link: </styles.caae59cfae2870fb118e.css>; rel=preload; as=script
-/category/til/1/
+/posts/1/
   Link: </webpack-runtime-02ac904c0cc73a3f747c.js>; rel=preload; as=script
   Link: </styles.caae59cfae2870fb118e.css>; rel=preload; as=script
-/posts/1/
+/category/til/1/
   Link: </webpack-runtime-02ac904c0cc73a3f747c.js>; rel=preload; as=script
   Link: </styles.caae59cfae2870fb118e.css>; rel=preload; as=script
 /category/til/2/
   Link: </webpack-runtime-02ac904c0cc73a3f747c.js>; rel=preload; as=script
   Link: </styles.caae59cfae2870fb118e.css>; rel=preload; as=script
-/category/til/3/
-  Link: </webpack-runtime-02ac904c0cc73a3f747c.js>; rel=preload; as=script
-  Link: </styles.caae59cfae2870fb118e.css>; rel=preload; as=script
 /posts/2/
   Link: </webpack-runtime-02ac904c0cc73a3f747c.js>; rel=preload; as=script
   Link: </styles.caae59cfae2870fb118e.css>; rel=preload; as=script
-/category/til/5/
+/category/til/3/
   Link: </webpack-runtime-02ac904c0cc73a3f747c.js>; rel=preload; as=script
   Link: </styles.caae59cfae2870fb118e.css>; rel=preload; as=script
 /category/til/4/
+  Link: </webpack-runtime-02ac904c0cc73a3f747c.js>; rel=preload; as=script
+  Link: </styles.caae59cfae2870fb118e.css>; rel=preload; as=script
+/category/til/5/
   Link: </webpack-runtime-02ac904c0cc73a3f747c.js>; rel=preload; as=script
   Link: </styles.caae59cfae2870fb118e.css>; rel=preload; as=script
 /category/til/6/
   Link: </webpack-runtime-02ac904c0cc73a3f747c.js>; rel=preload; as=script
   Link: </styles.caae59cfae2870fb118e.css>; rel=preload; as=script
 /category/til/7/
+  Link: </webpack-runtime-02ac904c0cc73a3f747c.js>; rel=preload; as=script
+  Link: </styles.caae59cfae2870fb118e.css>; rel=preload; as=script
+/category/til/8/
   Link: </webpack-runtime-02ac904c0cc73a3f747c.js>; rel=preload; as=script
   Link: </styles.caae59cfae2870fb118e.css>; rel=preload; as=script
 /category/til/9/
@@ -74,16 +77,13 @@
 /category/til/15/
   Link: </webpack-runtime-02ac904c0cc73a3f747c.js>; rel=preload; as=script
   Link: </styles.caae59cfae2870fb118e.css>; rel=preload; as=script
+/posts/3/
+  Link: </webpack-runtime-02ac904c0cc73a3f747c.js>; rel=preload; as=script
+  Link: </styles.caae59cfae2870fb118e.css>; rel=preload; as=script
 /category/til/16/
   Link: </webpack-runtime-02ac904c0cc73a3f747c.js>; rel=preload; as=script
   Link: </styles.caae59cfae2870fb118e.css>; rel=preload; as=script
 /posts/4/
-  Link: </webpack-runtime-02ac904c0cc73a3f747c.js>; rel=preload; as=script
-  Link: </styles.caae59cfae2870fb118e.css>; rel=preload; as=script
-/posts/3/
-  Link: </webpack-runtime-02ac904c0cc73a3f747c.js>; rel=preload; as=script
-  Link: </styles.caae59cfae2870fb118e.css>; rel=preload; as=script
-/category/til/8/
   Link: </webpack-runtime-02ac904c0cc73a3f747c.js>; rel=preload; as=script
   Link: </styles.caae59cfae2870fb118e.css>; rel=preload; as=script
 /tag/aws
