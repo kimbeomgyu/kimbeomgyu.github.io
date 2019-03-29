@@ -1,37 +1,24 @@
 ---
-title: TIL-0219
-date: '2019-02-19T21:21'
+title: mongoDB 권한 설정하는 방법
+date: '2019-03-29T20:09'
 template: 'post'
 draft: false
-slug: '/category/til/14/'
-category: 'TIL'
+slug: '/posts/4/'
+category: 'database'
 tags:
-  - 'TIL'
-  - 'server'
+  - 'database'
   - 'mongodb'
   - 'auth'
-description: 'mongodb 권한 설정!'
+description: 'mongoDB에서 권한 설정하는 방법'
 ---
 
-## 한 일
-
-#### mongodb 권한 설정
-
----
-
-###### mongodb 권한 설정
-
-며칠전 코드리뷰를 통해 매우매우 중요한 파일을 github에 올려버렸다는걸 알게 되었다. config 파일이였는데 토큰의 암호와 DB의 접속하는 url을 적어두었는데 커밋이 되어버려서 우선 config파일을 숨기고, 급하게 암호를 바꾸고 DB의 접근을 막기 위해 권한설정에 대해 다시 공부했다. 처음에 시도할때는 잘 되지 않아서 그냥 풀어뒀는데 해결했다.
-
-다시는 config파일을 깃에 올리지 말자….
-
-###### 사용자 목록 확인
+<h4>사용자 목록 확인</h4>
 
 `use admin`
 
 `show users`
 
-###### 모든 데이터베이스내의 사용자
+<h4>모든 데이터베이스내의 사용자</h4>
 
 `use admin`
 
@@ -39,7 +26,7 @@ description: 'mongodb 권한 설정!'
 
 `cur.count()`
 
-###### 계정생성
+<h4>계정생성</h4>
 
 `db.createUser` 해당 데이터베이스의 유저객체를 생성한다.
 
@@ -62,7 +49,7 @@ db.createUser( {user: "testUser",
     otherDBRoles:{ testDB2: ["readWrite"] } } )
 ```
 
-###### 사용자 삭제
+<h4>사용자 삭제</h4>
 
 `db.dropUser` 해당 데이터베이스의 유저객체를 삭제한다.
 
@@ -73,7 +60,7 @@ db.createUser( {user: "testUser",
   db.dropUser("testUser")
 ```
 
-###### 사용자 관리자 계정 생성
+<h4>사용자 관리자 계정 생성</h4>
 
 사용자 관리자는 데이터베이스나 다른 관리 기능을 운영하는 권한 말고 사용자를 생성할 수 있는 권한만 갖고 있어야 한다.
 
@@ -87,11 +74,11 @@ db.createUser( {user: "testUser",
   })
   ```
 
-###### 인증
+<h4>인증</h4>
 
 —auth 파라미터를 사용해서 재시작해야한다.
 
-`mongod -dbpath <data/db> —auth`
+`mongod -dbpath </data/db> —auth`
 
 이후부터는 접근하기 위해 사용자와 패스워드를 이용해야 한다. 아니면 접속 후 명령어를 통해 로그인해야한다.
 
@@ -100,11 +87,11 @@ use admin
 db.auth("useradmin","password")
 ```
 
-###### 권한 설정 후 접속방법
+<h4>권한 설정후 접속방법</h4>
 
-`mongo < host : port > -u <user> -p <pwd> --authenticationDatabase <database>`
+`mongo <host:port> -u <user> -p <pwd> --authenticationDatabase <database>`
 
-###### 또다른 권한 방법
+<h4>또다른 권한 방법</h4>
 
 ```javascript
 //루트계정생성
