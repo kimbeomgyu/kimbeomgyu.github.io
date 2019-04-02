@@ -3,7 +3,7 @@ title: mongoDB 권한 설정하는 방법
 date: '2019-03-29T20:09'
 template: 'post'
 draft: false
-slug: '/posts/5/'
+slug: '/posts/6/'
 category: 'database'
 tags:
   - 'database'
