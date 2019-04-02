@@ -10,8 +10,8 @@
 <url> <loc>https://kimbeomgyu.github.io/posts/2/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kimbeomgyu.github.io/category/til/3/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kimbeomgyu.github.io/category/til/4/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://kimbeomgyu.github.io/category/til/6/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kimbeomgyu.github.io/category/til/5/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://kimbeomgyu.github.io/category/til/6/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kimbeomgyu.github.io/category/til/7/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kimbeomgyu.github.io/category/til/8/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kimbeomgyu.github.io/category/til/9/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -23,14 +23,11 @@
 <url> <loc>https://kimbeomgyu.github.io/category/til/15/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kimbeomgyu.github.io/posts/3/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kimbeomgyu.github.io/category/til/16/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://kimbeomgyu.github.io/posts/4/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kimbeomgyu.github.io/posts/5/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kimbeomgyu.github.io/tag/aws</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kimbeomgyu.github.io/tag/android-studio</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://kimbeomgyu.github.io/tag/code-states</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kimbeomgyu.github.io/tag/ec-2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kimbeomgyu.github.io/tag/ios</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://kimbeomgyu.github.io/tag/immersive</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kimbeomgyu.github.io/tag/jwt</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kimbeomgyu.github.io/tag/jwt/page/1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kimbeomgyu.github.io/tag/s-3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -67,10 +64,8 @@
 <url> <loc>https://kimbeomgyu.github.io/tag/파일권한</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kimbeomgyu.github.io/category/aws</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kimbeomgyu.github.io/category/til</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://kimbeomgyu.github.io/category/codestates</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kimbeomgyu.github.io/category/database</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kimbeomgyu.github.io/category/react-native</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kimbeomgyu.github.io/category/server</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kimbeomgyu.github.io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://kimbeomgyu.github.io/page/1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
