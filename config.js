@@ -3,7 +3,7 @@
 module.exports = {
   url: 'https://kimbeomgyu.github.io',
   title: 'Blog by kimbeomgyu',
-  subtitle: '반갑습니다. 신입 개발자 김범규입니다.',
+  subtitle: '반갑습니다. 개발자 김범규 블로그입니다.',
   copyright: '© All rights reserved.',
   disqusShortname: 'kimbeomgyu',
   postsPerPage: 4,
@@ -17,8 +17,8 @@ module.exports = {
       path: '/pages/about'
     },
     {
-      label: 'portpolio',
-      path: '/pages/portpolio'
+      label: 'Projects',
+      path: '/pages/Projects'
     },
     {
       label: 'TIL',
@@ -28,7 +28,7 @@ module.exports = {
   author: {
     name: 'kim beom gyu',
     photo: '/photo.jpg',
-    bio: '개발자로 시작하는중....',
+    bio: '김범규 블로그 입니다.',
     contacts: {
       // email: 'qjarb1994@gmail.com',
       // telegram: '#',

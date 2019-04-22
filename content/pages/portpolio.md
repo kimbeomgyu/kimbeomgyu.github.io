@@ -1,4 +1,0 @@
----
-title: 'portpolio'
-template: 'page'
----
