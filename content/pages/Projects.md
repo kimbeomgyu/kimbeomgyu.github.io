@@ -39,8 +39,6 @@ shop 제휴요청 페이지에서 search query API 및 SPA로 pagination 구현
 <img src="/media/gelato_admin_message_result_list.png" alt="" style="width:12.9em; float:left; padding:0.1em;"/>
 <img src="/media/gelato_admin_shop_list.png" alt="" style="width:12.9em; padding:0.1em;"/>
 
-![](/media/flow.png)
-
 ---
 
 <span style="color:#f2511b; font-weight:bold">

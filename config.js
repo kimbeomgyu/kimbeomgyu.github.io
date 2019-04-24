@@ -9,20 +9,20 @@ module.exports = {
   postsPerPage: 4,
   menu: [
     {
-      label: 'Articles',
-      path: '/'
-    },
-    {
-      label: 'About me',
-      path: '/pages/about'
-    },
-    {
       label: 'Projects',
       path: '/pages/Projects'
     },
     {
-      label: 'TIL',
+      label: 'Articles',
+      path: '/'
+    },
+    {
+      label: 'Today I Learned',
       path: '/category/til/'
+    },
+    {
+      label: 'About me',
+      path: '/pages/about'
     }
   ],
   author: {
