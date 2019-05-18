@@ -6,6 +6,7 @@ module.exports = {
   subtitle: '반갑습니다. 개발자 김범규 블로그입니다.',
   copyright: '© All rights reserved.',
   disqusShortname: 'kimbeomgyu',
+  googleAnalyticsId: 'UA-140412990-1',
   postsPerPage: 4,
   menu: [
     {
