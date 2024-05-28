@@ -3,7 +3,7 @@ title: mac에서 react-native 설정
 date: '2019-02-01T20:40'
 template: 'post'
 draft: false
-slug: '/posts/1/'
+slug: '/1/'
 category: 'react-native'
 tags:
   - 'react-native'

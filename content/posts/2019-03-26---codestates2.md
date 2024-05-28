@@ -3,7 +3,7 @@ title: CodeStates Immersive 후기 (2)
 date: '2019-03-26T22:19'
 template: 'post'
 draft: false
-slug: '/posts/5/'
+slug: '/5/'
 category: 'codestates'
 tags:
   - 'CodeStates'

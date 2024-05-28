@@ -24,7 +24,7 @@ minifyOutput = true
 [menus]
   [[menus.main]]
     name = 'Articles'
-    pageRef = '/'
+    pageRef = '/posts'
     weight = 10
   [[menus.main]]
     name = 'About me'
