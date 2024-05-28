@@ -1,0 +1,32 @@
+baseURL = 'https://kimbeomgyu.github.io'
+languageCode = 'ko-KR'
+title = 'kimbeomgyu'
+description = '반갑습니다. 개발자 김범규 블로그입니다.'
+theme = 'PaperMod'
+copyright = "[kimbeomgyu](https://github.com/kimbeomgyu) © All rights reserved."
+enableRobotsTXT = true
+paginate = 15
+keywords = ['backend', 'frontend', 'developer', 'web', 'blog', 'personal', 'portfolio', 'resume', 'projects', 'articles', 'about', 'contact', 'kimbeomgyu']
+
+[services]
+  [services.disqus]
+    shortname = 'kimbeomgyu'
+  [services.googleAnalytics]
+    id = 'UA-140412990-1'
+
+[frontmatter]
+  date = ['date']
+
+[menus]
+  [[menus.main]]
+    name = 'Articles'
+    pageRef = '/'
+    weight = 10
+  [[menus.main]]
+    name = 'About me'
+    pageRef = '/pages/about'
+    weight = 20
+  [[menus.main]]
+    name = 'Projects'
+    pageRef = '/pages/projects'
+    weight = 30
