@@ -5,17 +5,21 @@ description = '반갑습니다. 개발자 김범규 블로그입니다.'
 theme = 'PaperMod'
 copyright = "[kimbeomgyu](https://github.com/kimbeomgyu) © All rights reserved."
 enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
 paginate = 15
+pygmentsUseClasses = true
 keywords = ['backend', 'frontend', 'developer', 'web', 'blog', 'personal', 'portfolio', 'resume', 'projects', 'articles', 'about', 'contact', 'kimbeomgyu']
+googleAnalytics = 'G-J9DBNPBFH8'
+
+[minify]
+disableXML = true
+minifyOutput = true
 
 [services]
   [services.disqus]
     shortname = 'kimbeomgyu'
-  [services.googleAnalytics]
-    id = 'UA-140412990-1'
-
-[frontmatter]
-  date = ['date']
 
 [menus]
   [[menus.main]]
@@ -30,3 +34,9 @@ keywords = ['backend', 'frontend', 'developer', 'web', 'blog', 'personal', 'port
     name = 'Projects'
     pageRef = '/pages/projects'
     weight = 30
+
+[params]
+  # code copy button on
+  ShowCodeCopyButtons = true
+  env = "production"
+  comments = true
