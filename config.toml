@@ -21,6 +21,15 @@ minifyOutput = true
   [services.disqus]
     shortname = 'kimbeomgyu'
 
+[server]
+    [[server.headers]]
+        for = '/**'
+        [server.headers.values]
+            Permissions-Policy = "interest-cohort=()"
+            Strict-Transport-Security = "max-age=31536000; includeSubDomains"
+            X-Frame-Options = "SAMEORIGIN"
+            X-Content-Type-Options = "nosniff"
+  
 [menus]
   [[menus.main]]
     name = 'Articles'
