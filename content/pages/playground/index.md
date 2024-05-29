@@ -6,7 +6,7 @@ template: 'page'
 
 | 수박게임 | Rust Bevy Engine WASM |
 |:-:|:-:|
-| [![게임이미지](./game1.png)](https://kimbeomgyu.github.io/suika-game/) | [![게임이미지](./game2.png)](https://kimbeomgyu.github.io/bevy-tutorial/) |
+| [![게임이미지](./game1.png)](https://kimbeomgyu.github.io/suika-game/) | [![게임이미지](./game2.png)](https://kimbeomgyu.github.io/bevy_tutorial/) |
 
 
 | 캐러셀 연습 | leonsans 연습 |
