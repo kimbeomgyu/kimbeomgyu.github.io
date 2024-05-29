@@ -34,6 +34,10 @@ minifyOutput = true
     name = 'Projects'
     pageRef = '/pages/projects'
     weight = 30
+  [[menus.main]]
+    name = 'Playground'
+    pageRef = '/pages/playground'
+    weight = 40
 
 [params]
   # code copy button on
